@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Stikki Landing Page</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="/CSS/style.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/txk2vlc.css">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="stikki-logo-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232.29 59.72"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M21.08,58.06C13.8,57.58,6,54.94,1.48,50.54c1-.88,5.6-7.44,7.2-10.4,4.56,5.28,10.24,5.36,11.44,3.2.88-1.6-.56-4.32-6.4-7.28C4.28,31.18,2.12,22,3.56,15.58c4-17.12,27.52-19.36,37.92-4L33.8,20.3c-3.68-5.92-16-7.36-13.28-1.52C23.24,24.86,45,27.26,38.52,51,35.56,57,29.16,58.62,21.08,58.06Z"/><path class="cls-1" d="M56.44,57.74c-.48-13.92-.88-27.92-1.6-41.92l-11.68-.08L42.2,1c9.68.16,30.08.48,41.6.64.48,5-.16,9.52-.4,14.4l-11.6.32c.08.16,1.12,37.68,1.2,42.24Z"/><path class="cls-1" d="M87.56,4.7,105.8,6.14c-1.12,23.28-.48,36.4-.16,49.92l-18.4.4Z"/><path class="cls-1" d="M110,2.94l15.76.16.48,18.08s.16-.08.16-.16c3.84-5.92,7.12-12.8,10.24-19l19.84.88C155.08,5,140.2,28.38,138.36,31.1l20.08,26-21.44,1-9-14.72-.64,15L109,58.7Z"/><path class="cls-1" d="M161.08,2.94l15.76.16.48,18.08s.16-.08.16-.16c3.84-5.92,7.12-12.8,10.24-19l19.84.88C206.12,5,191.24,28.38,189.4,31.1l20.08,26-21.44,1-9-14.72-.64,15L160,58.7Z"/><path class="cls-1" d="M213,4.7l18.24,1.44c-1.12,23.28-.48,36.4-.16,49.92l-18.4.4Z"/></g></g></svg>
+    </div>
+    <nav class="stikki-top-navbar">
+        <ul class="stikki-navbar-list">
+          <li class="nav-brand">
+            <img src="images/shading.svg" alt="">
+          </li>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item">
+            <a href="#how-to-use">How-to</a>
+          </li>
+          <li class="nav-item">
+            <a href="#in-the-box">In the box</a>
+          </li>
+          <li class="nav-item"><a href="#">FAQ</a></li>
+        </ul>
+  
+        <div>
+          <button class="nav-item cta">Buy now!</button>
+        </div>
+      </nav>
+
+
+<!-- ================= -->
+<!-- main content -->
+<!-- ================= -->
+    <main>
+        <div class="page-wrap">
+                <div class="attention-section">
+                    <div class="grid-halfes">
+                        <div class="left-purple">
+                            <div class="column-padding">
+                                <div class="content-grid">
+                                    <h1 class="main-heading">Clean like never before</h1>
+                                    <p class="section-sub-head">Stikki is specially designed to quickly and easily remove dust and dirt from consumer electronics and hard-to-reach places. Cleanliness. Redefined.</p>
+                                    <button class="brutal-btn">Buy now!</button>
+                                    <!-- <img src="/images/Buerste_spitz.png" alt="" class="stikki-buerste">
+                                    <img src="/images/no-bg-buerste.svg" alt="" class="stikki-buerste-spitz"> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-green">
+                            <div class="column-padding">
+                                <div class="column-right">
+                                    <img src="images/STIKKI Dose_alternative-Current View.png" alt="" class="stikki-dose">
+                                    <img src="/images/STIKKI Rubbers.png" alt="" class="stikki-rubbers">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="moving-text">
+                    <div class="scrolltext">
+                      <div>
+                        Clean with <span>Stikki – </span>Clean with <span>Stikki – </span>Clean with <span>Stikki – </span>Clean with <span>Stikki – </span>
+                      </div>
+                    </div>
+                </section>
+
+                <!-- Image reveal and how to  -->
+
+                <div id="how-to-use" class="how-to-section">
+                    <div class="section-intro">
+                        <h2>
+                            How-to use
+                        </h2>
+                    </div>
+                    <div class="img_container">
+                        <div class="mask">
+                            <img src="/images/STEP_1 - Kopie.png" alt="">
+                        </div>
+                        <p class="description">Remove a piece of stikki. Make sure your hands are dry, grease-free and clean.</p>
+                        <h3>Step1</h3>
+                    </div>
+                    <div class="img_container">
+                        <div class="mask">
+                            <img src="/images/STEP_2 - Kopie.png" alt="">
+                        </div>
+                        <p class="description">Loosen the kneading mass a little with your fingers. 2-3 times kneading is sufficient.</p>
+                        <h3>Step 2</h3>
+                    </div>
+                    <div class="img_container">
+                        <div class="mask">
+                            <img src="/images/STEP_3 - Kopie.png" alt="">
+                        </div>
+                        <p class="description">Gently press Stikki against the object to be cleaned.</p>
+                        <h3>Step 3</h3>
+                    </div>
+                    <div class="img_container">
+                        <div class="mask">
+                            <img src="/images/STEP_4 - Kopie.png" alt="">
+                        </div>
+                        <p class="description">Remove Stikki with a quick movement and free your favorite object from all dirt.</p>
+                        <h3>Step 4</h3>
+                    </div>
+                    <div class="img_container">
+                        <div class="mask">
+                            <img src="/images/STEP_5 - Kopie.png" alt="">
+                        </div>
+                        <p class="description">After use, you can easily dispose of Stikki in the household waste.</p>
+                        <h3>Step 5</h3>
+                    </div>
+                </div>
+
+                <!-- in the box section -->
+                <div class="section-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 75"><defs><style>.cls-1{fill:#00c89a;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="300 69.36 300 71.53 291.82 75 286.69 75 300 69.36"/><polygon class="cls-1" points="300 63.36 300 65.53 277.67 75 272.54 75 300 63.36"/><polygon class="cls-1" points="300 57.36 300 59.53 263.52 75 258.39 75 300 57.36"/><polygon class="cls-1" points="300 51.36 300 53.53 249.37 75 244.25 75 300 51.36"/><polygon class="cls-1" points="300 45.36 300 47.53 235.22 75 230.1 75 300 45.36"/><polygon class="cls-1" points="300 39.36 300 41.53 221.07 75 215.95 75 300 39.36"/><polygon class="cls-1" points="300 33.36 300 35.53 206.92 75 201.8 75 300 33.36"/><polygon class="cls-1" points="300 27.36 300 29.53 192.77 75 187.65 75 300 27.36"/><polygon class="cls-1" points="300 21.36 300 23.53 178.62 75 173.5 75 300 21.36"/><polygon class="cls-1" points="300 15.36 300 17.53 164.47 75 159.35 75 300 15.36"/><polygon class="cls-1" points="300 9.36 300 11.53 150.32 75 145.2 75 300 9.36"/><polygon class="cls-1" points="300 3.36 300 5.53 136.18 75 131.05 75 300 3.36"/><polygon class="cls-1" points="298.9 0 122.03 75 116.9 75 293.77 0 298.9 0"/><polygon class="cls-1" points="284.75 0 107.88 75 102.75 75 279.62 0 284.75 0"/><polygon class="cls-1" points="270.6 0 93.73 75 88.6 75 265.47 0 270.6 0"/><polygon class="cls-1" points="256.45 0 79.58 75 74.45 75 251.32 0 256.45 0"/><polygon class="cls-1" points="242.3 0 65.43 75 60.3 75 237.17 0 242.3 0"/><polygon class="cls-1" points="228.15 0 51.28 75 46.15 75 223.02 0 228.15 0"/><polygon class="cls-1" points="214 0 37.13 75 32.01 75 208.87 0 214 0"/><polygon class="cls-1" points="199.85 0 22.98 75 17.86 75 194.72 0 199.85 0"/><polygon class="cls-1" points="185.7 0 8.83 75 3.71 75 180.57 0 185.7 0"/><polygon class="cls-1" points="171.55 0 0 72.74 0 70.57 166.42 0 171.55 0"/><polygon class="cls-1" points="157.4 0 0 66.74 0 64.57 152.27 0 157.4 0"/><polygon class="cls-1" points="143.25 0 0 60.74 0 58.57 138.13 0 143.25 0"/><polygon class="cls-1" points="129.1 0 0 54.74 0 52.57 123.98 0 129.1 0"/><polygon class="cls-1" points="114.95 0 0 48.74 0 46.57 109.83 0 114.95 0"/><polygon class="cls-1" points="100.8 0 0 42.74 0 40.57 95.68 0 100.8 0"/><polygon class="cls-1" points="86.65 0 0 36.74 0 34.57 81.53 0 86.65 0"/><polygon class="cls-1" points="72.5 0 0 30.74 0 28.57 67.38 0 72.5 0"/><polygon class="cls-1" points="58.35 0 0 24.74 0 22.57 53.23 0 58.35 0"/><polygon class="cls-1" points="44.2 0 0 18.74 0 16.57 39.08 0 44.2 0"/><polygon class="cls-1" points="30.05 0 0 12.74 0 10.57 24.93 0 30.05 0"/><polygon class="cls-1" points="15.9 0 0 6.74 0 4.57 10.78 0 15.9 0"/><polygon class="cls-1" points="1.75 0 0 0.74 0 0 1.75 0"/></g></g></svg>
+                </div>
+
+                <div id="in-the-box" class="in-the-box-section">
+                    <div class="section-intro">
+                        <h2>
+                            What's in the box?
+                        </h2>
+                    <div class="box-wrapper">
+                        <div class="article-grid">
+                            <div class="article-picture1">
+                                <img src="images/Buerste_spitz.png" alt="">
+                            </div>
+                            <div class="article-picture2">
+                                <img src="images/no-bg-buerste.svg" alt="">
+                            </div>
+                            <div class="article-picture3">
+                                <img src="images/STIKKI Rubbers.png" alt="">
+                            </div>
+                            <div class="article-description">
+                                <h4>Lace brush</h4>
+                                <p> Used to reach places you can't reach with STIKKI® (e.g. charging sockets)</p>
+                            </div>
+                            <div class="article-description">
+                                <h4>Multifunctional brush</h4>
+                                <p>Used to remove coarse impurities with the specially shaped tip. The multifunctional brush can be used for both pre-treatment and post-treatment.</p>
+                            </div>
+                            <div class="article-description">
+                                <h4>Type cleaners</h4>
+                                <p>Used to clean consumer electronics. Type cleaners have been developed for typewriters. Typewriters are yesterday. Today there are smartphones and there is STIKKI cleaning clay.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+      </main>
+  </body>
+</html>
