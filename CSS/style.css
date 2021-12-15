@@ -270,12 +270,19 @@ body::-webkit-scrollbar-thumb {
 /* ===================== */
 
 .section-intro {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
     margin-bottom: -8rem;
+    width: 100%;
+    display: inline-flex;
 }
+
+.section-intro h2 {
+    font-size: 3rem;
+}
+
+
 
 .how-to-section {
     max-width: 1320px;
@@ -283,7 +290,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img_container {
-    margin: 20% 0;
+    margin: 10% 0;
     width: 70%;
     position: relative;
     display: flex;
@@ -325,6 +332,7 @@ img {
 /* ===================== */
 /* in the box */
 /* ===================== */
+
 
 .in-the-box-section {
     margin: 0;
@@ -401,6 +409,53 @@ img {
     hyphens: auto;
     padding: 0 1em;
 }
+
+/* faq section */
+
+.faq-box-wrapper {
+    width: 50vw;
+    margin: 100px auto;
+    background: #fff;
+    border: 2px solid black;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.heading-faq {
+    margin-left: 1em;
+    font-weight: 900;
+}
+ 
+.box .heading-faq{
+    background: #7800CF;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+ 
+.faqs{
+    padding: 0px 20px 20px;
+}
+ 
+::-webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+}
+ 
+details{
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+ 
+details summary{
+    outline: none;
+}
+ 
 
 @media (max-width: 700px)
 {

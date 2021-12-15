@@ -7,7 +7,7 @@ let heading2 = document.querySelectorAll('h2');
 let heading3 = document.querySelectorAll('h3');
 let description = document.querySelectorAll('.description');
 
-// dosen und rubber movement
+// dosen and rubber movement
 
 gsap.to(".stikki-dose", {
     scrollTrigger: {
